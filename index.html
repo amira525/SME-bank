@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SME Bank</title>
+        <link rel="stylesheet" href="css/animate.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+        <link rel="stylesheet" href="fontawesome/css/all.min.css"/>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/slick.css">
+        <link rel="stylesheet" href="css/style.css" >
+    </head>
+    
+    <body>
+        <!-- start navbar -->
+        <section class="main-navbar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                <a class="navbar-brand" href="./index.html"><img class="logo" src="./image/SME-Logo.png"  /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#" data-scroll="about">عن البنك</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#" data-scroll="products">منتجات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#" data-scroll="about-company">مركز المعلومات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll="contact-us">تواصل معانا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.html">بوابة الموظفين</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <span class="icon-search"><i class="fas fa-search"></i></span>
+                        <span><i class="fas fa-cog"></i></span>
+                        <span>en</span>
+                    </form>
+                </div>
+                </div>
+            </nav>
+        </section>
+        <!-- end navbar -->
+        <!-- start header -->
+        <section class="header">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="overlay"></div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="./image/slider01.jpg">
+                    <div class="detalis-slider">
+                        <h3>احصل على تمويل</h3>
+                        <p>منصة الكترونية تربط الممولين من الحكومة والقطاع الخاص بالمنشأت الصغيرة والمتوسطةالراغبة فى الحصول على التمويل وتمكلهم من اختيار عروض التمويل المناسبة.</p>
+                        <a href="#">قدم الأن</a>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./image/slider02.jpg">
+                    <div class="detalis-slider">
+                        <h3>احصل على تمويل</h3>
+                        <p>منصة الكترونية تربط الممولين من الحكومة والقطاع الخاص بالمنشأت الصغيرة والمتوسطةالراغبة فى الحصول على التمويل وتمكلهم من اختيار عروض التمويل المناسبة.</p>
+                        <a href="#">قدم الأن</a>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./image/slider03.jpg">
+                    <div class="detalis-slider">
+                        <h3>احصل على تمويل</h3>
+                        <p>منصة الكترونية تربط الممولين من الحكومة والقطاع الخاص بالمنشأت الصغيرة والمتوسطةالراغبة فى الحصول على التمويل وتمكلهم من اختيار عروض التمويل المناسبة.</p>
+                        <a href="#">قدم الأن</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end header -->
+        <!-- start about -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="h1">من نحن</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>بنك المنشأت الصغيرة والمتوسطة تم تأسيسة بقرار مجلس الوزراء رقم 376 بتاريخ 4/7/1442 ه الموافق 16/02/2021 ميلادية حرصا من قيادة المملكة العربية السعودية بتنظيم قطاع المنشأت الصغيرة والمتوسطة فى المملكة ودعمة وتنميتة ورعايتة ورفع أنتاجية هذة المنشأت وزيادة مساهمتها فى الناتج المحلى الاجمالى من 20% الى 35% بحلوم عام 2030 م.</p>
+                        <a href="#">تواصل معنا</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="img-about">
+                            <img src="/image/4.jpg"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end about -->
+        <!-- start our projects -->
+        <section class="projects">
+            <div class="container">
+                <h2 class="h1">المشاريع الصغيرة والمتوسطة فى السعودية</h2>
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="iteams one">
+                            <h3><i class="fas fa-city"></i></h3>
+                            <span>2,564</span>
+                            <p>اجمالى عدد المشاريع الصغيرة والمتوسطة</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="iteams two">
+                            <h3><i class="fas fa-bolt"></i></h3>
+                            <span>4,454</span>
+                            <p>اجمالى المشاريع الصغيرة والمتوسطة فى قطاع الطاقة</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="iteams three">
+                            <h3><i class="far fa-building"></i></h3>
+                            <span>49</span>
+                            <p> اجمالى المشاريع الصغيرة والمتوسطة فى قطاع البناء</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="iteams four">
+                            <h3><i class="fab fa-superpowers"></i></h3>
+                            <span>21</span>
+                            <p>اجمالى المشاريع الصغيرة والمتوسطة فى قطاع التكنولوجيا</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end our projects -->
+        <!-- start about companys -->
+        <section class="about-company" id="about-company">
+            <div class="container">
+                <h2 class="h1">تعريف الشركات الصغيرة والمتوسطة</h2>
+                <span>الشركات الصغيرة والمتوسطة بسجل تجارى نشط</span>
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <div class="company-card one">
+                            <h3><i class="fas fa-user"></i></h3>
+                            <p>متناهية الصغر</p>
+                            <p class="num-copmany">أقل من 3 مليون</p>
+                            <span>1-5 موظف</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="company-card two">
+                            <h3><i class="fas fa-user-friends"></i></h3>
+                            <p>صغيرة</p>
+                            <p class="num-copmany">أكثر من 3 مليون الى 40 مليون</p>
+                            <span>6-49 موظف</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="company-card three">
+                            <h3><i class="fas fa-city"></i></h3>
+                            <p>متوسطة</p>
+                            <p class="num-copmany">أكثر من 40 مليون الى 200 مليون</p>
+                            <span>50-249 موظف</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end about companys -->
+        <!-- start products -->
+        <section class="all-products" id="products">
+            <div class="container">
+                <h2 class="h1">المنتجات</h2>
+                <div class="products-slider">
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="/image/OIP (2).jpg" />
+                        </div>
+                        <div class="cover"></div>
+                        <i class="fas fa-play"></i>
+                        <div class="product-detalis"></div>
+                        <h6>تمويل رأس المال العامل</h6>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="/image/OIP (1).jpg" />
+                        </div>
+                        <div class="cover"></div>
+                        <i class="fas fa-play"></i>
+                        <div class="product-detalis"></div>
+                        <h6>تمويل المتاجر الالكترونية</h6>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="/image/OIP (3).jpg" />
+                        </div>
+                        <div class="cover"></div>
+                        <i class="fas fa-play"></i>
+                        <div class="product-detalis"></div>
+                        <h6>تمويل متوسط الأجل</h6>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="/image/OIP (4).jpg" />
+                        </div>
+                        <div class="cover"></div>
+                        <i class="fas fa-play"></i>
+                        <div class="product-detalis"></div>
+                        <h6>بطاقات الأئتمان</h6>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="/image/OIP (2).jpg" />
+                        </div>
+                        <div class="cover"></div>
+                        <i class="fas fa-play"></i>
+                        <div class="product-detalis"></div>
+                        <h6>تمويل رأس المال العامل</h6>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="/image/OIP (1).jpg" />
+                        </div>
+                        <div class="cover"></div>
+                        <i class="fas fa-play"></i>
+                        <div class="product-detalis"></div>
+                        <h6>تمويل المتاجر الالكترونية</h6>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="/image/OIP (3).jpg" />
+                        </div>
+                        <div class="cover"></div>
+                        <i class="fas fa-play"></i>
+                        <div class="product-detalis"></div>
+                        <h6>تمويل متوسط الأجل</h6>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="/image/OIP (4).jpg" />
+                        </div>
+                        <div class="cover"></div>
+                        <i class="fas fa-play"></i>
+                        <div class="product-detalis"></div>
+                        <h6>بطاقات الأئتمان</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end products -->
+        <!-- start contact us -->
+        <section class="contact-us" id="contact-us">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927776.3007498442!2d47.906088431706046!3d24.722548185075855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2z2KfZhNix2YrYp9i2INin2YTYs9i52YjYr9mK2Kk!5e0!3m2!1sar!2seg!4v1668709342542!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="contact">
+                <div class="container">
+                    <h2 class="h1">تواصل معنا</h2>
+                    <form>
+                        <input type="text" placeholder="أدخل الأسم" />
+                        <input type="text" placeholder="أدخل الأيميل" />
+                        <input type="text" placeholder="أدخل رقم الهاتف" />
+                        <textarea placeholder="أكتب رسالة"></textarea>
+                        <button>ارسال</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- end contact us -->
+        <!-- start footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="logo">
+                            <img src="/image/SME-Logo.png" />
+                            <p>المشروعات الصغيرة وسيلة ممتازة لتحسين الدخل</p>
+                        </div>
+                        <div class="icon">
+                            <span><i class="fab fa-youtube"></i></span>
+                            <span><i class="fab fa-twitter-square"></i></span>
+                            <span><i class="fab fa-whatsapp-square"></i></span>
+                            <span><i class="fab fa-instagram-square"></i></span>
+                            <span><i class="fab fa-facebook-square"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="footer-links">
+                            <ul>
+                                <li><a href="#"> <i class="far fa-arrow-alt-circle-left"></i>عن البنك</a></li>
+                                <li><a href="products.html"> <i class="far fa-arrow-alt-circle-left"></i>منتجات</a></li>
+                                <li><a href="#"> <i class="far fa-arrow-alt-circle-left"></i>مركز المعلومات</a></li>
+                                <li><a href="#"> <i class="far fa-arrow-alt-circle-left"></i>تواصل معنا</a></li>
+                                <li><a href="/dashboard.html"> <i class="far fa-arrow-alt-circle-left"></i>بوابة الموظفين</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+        <!-- start chat -->
+        <section class="chat">
+            <button><i class="fas fa-comment"></i></button>
+            <div class="massage-chat">
+                <form>
+                    <input type="text" placeholder="اكتب..." />
+                    <button><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+        <!-- end chat -->
+        
+            
+        
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custom.js"></script>
+        
+    </body>
+</html>
